@@ -164,7 +164,7 @@ body {
 
 /* main */
 .main {
-  background-image: url(./img/background1.jpg);
+  background-image: url(./img/img1.jpg);
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -230,36 +230,25 @@ body {
 .main .container .text__informacion .parrafo {
   text-align: center;
   padding: 50px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #fff;
 }
 
-/* .border{
-    font-size: 4rem;
-    position: absolute;
-    padding-left: 100px;
-    color: #000;
-    text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    1px 1px 0 #fff,
-    -1px 1px 0 #fff;
-}
-.wave{
-    font-size: 4rem;
-    position: absolute;
-    padding-left: 100px;
-    color: aqua;
-    animation: shift 3s ease-in-out infinite;
+.main .cards__section {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
 }
 
-@keyframes shift {
-    0%, 100%{
-        clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-    }
-
-    50%{
-        clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-    }
-} */
+.main .cards__section .card {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 60px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  background: url(./img/background.jpg);
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */

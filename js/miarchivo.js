@@ -1,4 +1,35 @@
-let hola = prompt("Bienvenido! Ingresa 'hola' para comenzar");
+let valorTotal = 15000;
+let cuotaPagar = prompt("Escriba las cuotas a pagar (6, 12, 18, 24)");
+
+while(cuotaPagar != 6 && cuotaPagar != 12 && cuotaPagar != 18 && cuotaPagar != 24){
+    cuotaPagar = prompt ("Ingrese un nro de cuotas valido (6, 12, 18, 24)");
+}
+
+let valorFinal = valorTotal / cuotaPagar;
+alert ("Tus cuotas son " + cuotaPagar + "cuotas, y el valor de cada cuota sera de:" + valorFinal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let hola = prompt("Bienvenido! Ingresa 'hola' para comenzar");
 while(hola != "hola" ){
     alert("Has ingresado " + hola);
     hola = prompt("Para comenzar ingresa 'hola'");
@@ -20,7 +51,7 @@ let finish = prompt("Un ultimo paso, ingrese 'seguir' para poder continuar viend
 while (finish != "seguir"){
     alert("Ingresaste " + finish)
     finish = prompt("Por favor, para continuar a nuestra pagina ingresar 'seguir'")
-}
+} */
 
 
 
